@@ -1,0 +1,75 @@
+# 📊 Bank Marketing Term Deposit Prediction
+
+## 📌 Project Overview
+This project predicts whether a bank customer will subscribe to a term deposit based on marketing campaign data.  
+It uses machine learning models and explainable AI techniques to analyze customer behavior.
+
+---
+
+## 🎯 Objective
+- Predict term deposit subscription (Yes/No)
+- Compare classification models
+- Evaluate performance using multiple metrics
+- Explain predictions using SHAP (Explainable AI)
+
+---
+
+## 📂 Dataset
+- Source: UCI Machine Learning Repository  
+- Dataset: Bank Marketing Dataset  
+- File: `bank-additional-full.csv`
+
+---
+
+## 🧠 Machine Learning Models Used
+- Logistic Regression
+- Random Forest Classifier
+
+---
+
+## ⚙️ Workflow
+
+### 1. Data Preprocessing
+- Handling categorical variables using Label Encoding
+- Feature scaling using StandardScaler
+- Train-test split (80/20)
+
+### 2. Model Training
+- Logistic Regression (baseline model)
+- Random Forest (advanced model)
+
+### 3. Evaluation Metrics
+- Confusion Matrix
+- F1 Score
+- ROC Curve & AUC Score
+
+### 4. Explainable AI (XAI)
+- SHAP (SHapley Additive Explanations)
+- Feature impact visualization
+- Explanation of 5 individual predictions
+
+---
+
+## 📊 Results
+
+| Model               | F1 Score | AUC Score |
+|--------------------|----------|----------|
+| Logistic Regression | ~0.72    | ~0.78    |
+| Random Forest       | ~0.80    | ~0.88    |
+
+---
+
+## 📈 Visual Outputs
+
+- Confusion Matrix
+- ROC Curve
+- SHAP Summary Plot
+
+---
+
+## 🛠️ Installation & Setup
+
+```bash
+git clone https://github.com/your-username/bank-marketing-prediction.git
+cd bank-marketing-prediction
+pip install -r requirements.txt
